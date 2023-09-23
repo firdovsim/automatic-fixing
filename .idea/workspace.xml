@@ -5,41 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796507ae-31f2-40bc-9044-24c1e8775efe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/format-code.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/engine/_user_profile.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/engine/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/sandbox/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enum/OrderStatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EventListener/ExceptionListener.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EventListener/KernelListener.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/Types/TaskType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generator/GeneratorService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generator/MessageGenerator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generator/NotificationMessage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generator/UuidGenerate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModamuBundle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/Hasher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/RouteChecker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/SiteUpdateManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Twig/Extension/AppExtension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Twig/Extension/TitleCaseExtension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Twig/Runtime/AppRuntime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/article/_recent.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/engine/_user_profile.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/engine/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/template_engine/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +133,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/firdovsi/Desktop/git_tutorial",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -234,7 +200,7 @@
       <workItem from="1694506636578" duration="1557000" />
       <workItem from="1695005835614" duration="530000" />
       <workItem from="1695455641592" duration="1305000" />
-      <workItem from="1695461753150" duration="1101000" />
+      <workItem from="1695461753150" duration="1232000" />
     </task>
     <servers />
   </component>

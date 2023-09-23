@@ -4,6 +4,15 @@
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration
 parameters:
+    router.request_context.scheme: 'https'
+    asset.request_context.secure: true
+    asset.request_context.base_path: ''
+
+    app.admin_email: 'admin@modamu.com'
+    app.contents_dir: 'app'
+
+    tokens:
+        client: token
 
 services:
     # default configuration for services in *this* file
@@ -22,3 +31,32 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+    App\Twig\Extension\AppExtension:
+        tags:
+            - { name: 'twig.extension' }
+
+    App\Twig\Extension\TitleCaseExtension:
+        tags:
+            - { name: 'twig.extension' }
+
+    Symfony\Component\Dotenv\Command\DotenvDumpCommand: ~
+
+    App\Generator\MessageGenerator:
+        arguments:
+            $contentsDir: '%app.contents_dir%'
+
+    App\Generator\NotificationMessage:
+        arguments:
+            $email: 'firdovsi.mamedov.k@gmail.com'
+            $generator: !closure '@App\Generator\GeneratorService'
+
+    App\Service\SiteUpdateManager:
+        arguments:
+            $adminEmail: 'admin@gmail.com'
+            $hasher: !closure '@App\Service\Hasher'
+
+    App\EventListener\ExceptionListener:
+        tags: [kernel.event_listener]
+
+imports:
+    - { resource: 'legacy_config.php', ignore_errors: true }

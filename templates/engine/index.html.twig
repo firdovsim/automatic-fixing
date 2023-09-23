@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <p>{{ theme }}</p>
+
+    {{ include('engine/_user_profile.html.twig', {themeColor: theme}) }}
+
+    {{ render(
+        controller('App\\Controller\\ArticleController::recentArticles', {max: 3})
+    ) }}
+
+    <hr>
+
+    {{ render(
+        path('app_load_articles', {max: 3})
+    ) }}
+{% endblock %}

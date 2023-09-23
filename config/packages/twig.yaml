@@ -1,0 +1,14 @@
+twig:
+    default_path: '%kernel.project_dir%/templates'
+    globals:
+        car_number: 'UA-0000-XA'
+        working: '%env(APP_STATUS)%'
+    paths:
+        'email/default/template': 'email'
+        'backend/templates': 'admin'
+
+    form_themes: ['bootstrap_5_layout.html.twig']
+
+when@test:
+    twig:
+        strict_variables: true

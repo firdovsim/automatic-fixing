@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <p>Backend Lucky number is: {{ number }}</p>
+    <p>{{ 'hello, world'|ucfirst }}</p>
+    <small>{{ working }}</small>
+
+    <p>{{ app.current_route }}</p>
+    <p>{{ app.request.attributes.get('_route') }}</p>
+
+    {{ 'Firdovsi'|upper }}
+
+    <a href="{{ url('app_lucky') }}">Lucky</a>
+    <h2>Hey, {{ car_number }}</h2>
+
+    <script>
+        let url = "{{ path('app_document')|escape('js') }}"
+        console.log(url)
+    </script>
+{% endblock %}
